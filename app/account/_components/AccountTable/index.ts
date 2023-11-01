@@ -1,0 +1,1 @@
+export { AccoutTable } from "./AccountTable";
