@@ -16,7 +16,7 @@ export const AccountSelect: FC<AccountSelectProps> = ({
   children,
   name,
 }) => {
-  const { editItemIndex, form, setEditableItem } = useAccount();
+  const { editItemIndex, setEditableItem } = useAccount();
   const isEdit = itemId === editItemIndex;
 
   return isEdit ? (

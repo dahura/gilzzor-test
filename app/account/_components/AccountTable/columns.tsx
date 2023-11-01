@@ -2,7 +2,6 @@
 import { Button, Dropdown, MenuProps, Space, Tag, message } from "antd";
 import { ColumnsType } from "antd/es/table";
 import { DataType } from "../../types";
-import { transformDate } from "../../utils/transformDate";
 import { SUPPORTED_CURRENCY } from "./constant";
 import { AccountActionMenu } from "./AccountActionMenu";
 import { AccountDate } from "./AccountTableItems/AccountDate";

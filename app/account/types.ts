@@ -6,5 +6,5 @@ export interface DataType {
   amount: number;
   type: "income" | "expenses";
   note: string;
-  isEditable?: boolean;
+  isInitial?: boolean;
 }
